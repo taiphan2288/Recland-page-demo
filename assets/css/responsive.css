@@ -251,4 +251,9 @@
     align-items: center;
     justify-content: center;
   }
+
+  .nav__logo img {
+    width: 158px;
+    height: 32px;
+  }
 }
