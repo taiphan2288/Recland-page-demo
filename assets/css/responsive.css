@@ -53,10 +53,6 @@
     font-size: 18px;
   }
 
-  .brand__list {
-    bottom: 0;
-  }
-
   .search__job,
   .search__city,
   .button__search {
@@ -78,10 +74,6 @@
 
   .search__city-list {
     width: 100%;
-  }
-
-  .brand__item {
-    display: none;
   }
 
   .nav__menu {
@@ -113,7 +105,116 @@
     flex-direction: column;
     gap: 16px;
   }
+
+  .subscribe__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subscribe__button {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .category__list-1,
+  .category__list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* Mobile */
 @media (max-width: 740px) {
+  .category__list-1,
+  .category__list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .description__content-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0 61px;
+    margin-bottom: 24px;
+  }
+
+  .subcribe__email {
+    width: 340px;
+  }
+
+  .about__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px 0;
+  }
+
+  .about__follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about__desciption {
+    text-align: center;
+  }
+
+  .about__us,
+  .about__partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px 0;
+  }
+
+  .about__partner-title,
+  .about__us-title {
+    text-align: center;
+  }
+
+  .about__partner-list,
+  .about__us-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .connection__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .connection__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .connection__subtitle {
+    text-align: center;
+  }
+
+  .button__connection {
+    margin-bottom: 32px;
+  }
+
+  .description__content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

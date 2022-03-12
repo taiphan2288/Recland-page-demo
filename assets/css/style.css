@@ -242,8 +242,15 @@ img {
 }
 
 .home__container {
-  position: relative;
   min-height: 701px;
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.home__container-content {
+  position: relative;
+  min-height: 529px;
 }
 
 .home__img {
@@ -261,6 +268,7 @@ img {
 .home__content {
   position: absolute;
   width: 100%;
+  min-height: 588px;
 }
 
 .home__content-heading {
@@ -391,16 +399,11 @@ img {
 }
 
 .brand__list {
-  position: absolute;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
-  z-index: -1;
 }
 
 /*==================== Description ====================*/
@@ -868,7 +871,7 @@ img {
 }
 
 .about__us,
-.about__parner {
+.about__partner {
   display: flex;
   flex-direction: column;
   gap: 48px 0;
