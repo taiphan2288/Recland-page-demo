@@ -43,6 +43,16 @@
     gap: 24px;
   }
 
+  .home__content-heading {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .home__content-subtitle {
+    text-align: center;
+    font-size: 18px;
+  }
+
   .brand__list {
     bottom: 0;
   }
