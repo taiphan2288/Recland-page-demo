@@ -63,15 +63,11 @@
   }
 
   .search__job-list {
-    bottom: 340px;
-    z-index: 1;
-    width: 50%;
+    width: 100%;
   }
 
   .search__city-list {
-    bottom: 250px;
-    z-index: 1;
-    width: 50%;
+    width: 100%;
   }
 
   .brand__item {

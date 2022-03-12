@@ -310,7 +310,6 @@ img {
   border-radius: 8px;
   position: relative;
   cursor: pointer;
-  overflow: hidden;
 }
 
 .search__job-select {
@@ -349,9 +348,15 @@ img {
   visibility: visible;
 }
 
-.search__job-list {
+.search__job {
   width: 300px;
-  bottom: 35px;
+}
+
+.search__job-list {
+  width: 100%;
+  top: 110%;
+  right: 0;
+  z-index: 2;
 }
 
 .drop-down__list-item {
@@ -368,8 +373,10 @@ img {
 }
 
 .search__city-list {
-  width: 230px;
-  bottom: 35px;
+  width: 100%;
+  top: 110%;
+  right: 0;
+  z-index: 5;
 }
 
 .button__search {
@@ -393,6 +400,7 @@ img {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+  z-index: -1;
 }
 
 /*==================== Description ====================*/
