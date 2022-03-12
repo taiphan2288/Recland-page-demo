@@ -1,0 +1,114 @@
+@media only screen and (min-width: 1441px) {
+  .home__container,
+  .description__container,
+  .category__container,
+  .connection__container,
+  .job__container,
+  .subcribe__container,
+  .about__container {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+
+  .nav__item {
+    text-align: center;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .nav__registration-login,
+  .nav__registration-registor {
+    font-size: 14px;
+  }
+}
+
+/* Ipad */
+@media only screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .home__content-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .brand__list {
+    bottom: 0;
+  }
+
+  .search__job,
+  .search__city,
+  .button__search {
+    width: 100%;
+  }
+
+  .search__job-select,
+  .search__city-select {
+    width: 100%;
+  }
+
+  .button__search {
+    justify-content: center;
+  }
+
+  .search__job-list {
+    bottom: 340px;
+    z-index: 1;
+    width: 50%;
+  }
+
+  .search__city-list {
+    bottom: 250px;
+    z-index: 1;
+    width: 50%;
+  }
+
+  .brand__item {
+    display: none;
+  }
+
+  .nav__menu {
+    position: absolute;
+    right: 0;
+    height: calc(100% - 100px);
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav__menu-bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nav__registration {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+/* Mobile */
+@media (max-width: 740px) {
+}
