@@ -155,6 +155,13 @@
     justify-content: center;
   }
 
+  .connecton__img {
+    margin-bottom: 0;
+  }
+  .connection__content {
+    margin-top: 0;
+  }
+
   .home__container-content {
     min-height: 800px;
     margin-bottom: 32px;
