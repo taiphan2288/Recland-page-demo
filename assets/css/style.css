@@ -246,6 +246,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  overflow: auto;
 }
 
 .home__container-content {

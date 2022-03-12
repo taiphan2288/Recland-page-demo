@@ -126,6 +126,16 @@
     align-items: center;
     justify-content: center;
   }
+
+  .home__container-content {
+    min-height: 700px;
+  }
+
+  .brand__list {
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
 }
 /* Mobile */
 @media (max-width: 740px) {
@@ -135,6 +145,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+
+  .home__container-content {
+    min-height: 800px;
+    margin-bottom: 32px;
+  }
+
+  .home__content-search {
+    margin: 0;
   }
 
   .description__content-list {
