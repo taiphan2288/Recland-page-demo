@@ -231,9 +231,7 @@ img {
   margin: 5px;
 }
 
-.nav--active {
-  transform: translateX(0%) !important;
-}
+
 
 /*==================== HOME ====================*/
 .home {
