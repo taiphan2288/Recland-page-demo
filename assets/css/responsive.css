@@ -79,14 +79,15 @@
   .nav__list {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .nav__registration {
+  /* .nav__registration {
     display: flex;
     flex-direction: column;
     gap: 16px;
-  }
+  } */
 
   .subscribe__info {
     display: flex;
@@ -144,15 +145,12 @@
     margin-top: 10%;
   }
 
-  .nav__registration {
-    margin-top: 20%;
-  }
-
   .nav__link {
     font-size: 20px;
   }
 
-  .nav__registration button {
+  .nav__registration-login,
+  .nav__registration-registor {
     font-size: 20px;
   }
 
