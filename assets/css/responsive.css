@@ -246,8 +246,8 @@
   }
 
   .home__container-content {
-    min-height: 800px;
-    margin-bottom: 32px;
+    min-height: 700px;
+    margin-bottom: 16px;
   }
 
   .home__content-search {
