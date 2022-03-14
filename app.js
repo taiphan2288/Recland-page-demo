@@ -7,6 +7,7 @@ const navSlide = () => {
   });
   //
 };
+
 navSlide();
 
 // slider
@@ -38,7 +39,7 @@ window.addEventListener("load", function () {
       const slideIndex = parseInt(el.target.dataset.index);
       index = slideIndex;
       positionX = -1 * index * sliderItemWidth;
-      sliderMain.style = `transform: translateX(${positionX}px)`;
+      sliderMain.style = `transform: translate(${positionX}px)`;
     });
   });
 
