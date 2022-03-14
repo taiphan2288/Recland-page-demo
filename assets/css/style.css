@@ -231,8 +231,6 @@ img {
   margin: 5px;
 }
 
-
-
 /*==================== HOME ====================*/
 .home {
   padding-top: 0;
@@ -404,7 +402,9 @@ img {
   margin: 0 auto;
   width: 100%;
 }
-
+.slider {
+  display: none;
+}
 /*==================== Description ====================*/
 .description__container {
   display: flex;
