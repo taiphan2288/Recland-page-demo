@@ -62,5 +62,7 @@ window.addEventListener("load", function () {
       sliderMain.style = `transform: translateX(${positionX}px)`;
       index--;
     }
+    [...dotItems].forEach((e) => e.classList.remove("active"));
+    dotItems[index].classList.add("active");
   }
 });
