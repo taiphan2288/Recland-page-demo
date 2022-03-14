@@ -7,7 +7,6 @@ const navSlide = () => {
   });
   //
 };
-
 navSlide();
 
 // slider
