@@ -672,6 +672,7 @@ img {
   transition: transform linear 0.1s;
   will-change: transform;
   min-height: 400px;
+  margin: 0 auto;
 }
 
 .job__list-item:hover {
