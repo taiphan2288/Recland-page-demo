@@ -98,4 +98,35 @@ $(".category__list-mobile-2").owlCarousel({
   },
 });
 
-// 
+// job list
+$(".job__list-1").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  center: true,
+  autoPlay: true,
+  autoplayTimeout: 2000,
+  smartSpeed: 400,
+  autoplayhoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});
+
+$(".job__list-2").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  center: true,
+  autoPlay: true,
+  autoplayTimeout: 2000,
+  smartSpeed: 400,
+  autoplayhoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});

@@ -440,4 +440,22 @@
   .category__item {
     box-shadow: none;
   }
+
+  /* Job */
+  .job__wrapper {
+    display: block;
+  }
+
+  .job__wrapper .owl-carousel {
+    margin: auto;
+    max-width: 310px;
+  }
+
+  .job__list {
+    display: none;
+  }
+
+  .job__list-item {
+    box-shadow: none;
+  }
 }
