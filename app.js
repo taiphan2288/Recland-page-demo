@@ -66,3 +66,36 @@ window.addEventListener("load", function () {
     dotItems[index].classList.add("active");
   }
 });
+
+// category mobile
+$(".category__list-mobile-1").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  center: true,
+  autoPlay: true,
+  autoplayTimeout: 2000,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});
+
+$(".category__list-mobile-2").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  center: true,
+  autoPlay: true,
+  autoplayTimeout: 2000,
+  smartSpeed: 400,
+  autoplayhoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+  },
+});
+
+// 

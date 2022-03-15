@@ -232,10 +232,7 @@
 
   .category__list-1,
   .category__list-2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: none;
   }
 
   .connecton__img {
@@ -424,5 +421,23 @@
     height: auto;
     object-fit: cover;
     border-radius: 10px;
+  }
+
+  .category__wrapper {
+    display: block;
+    margin-top: 24px;
+  }
+
+  .category__wrapper {
+    width: 100%;
+  }
+
+  .category__wrapper .owl-carousel {
+    max-width: 200px;
+    margin: auto;
+  }
+
+  .category__item {
+    box-shadow: none;
   }
 }

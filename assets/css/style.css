@@ -516,9 +516,16 @@ img {
   transform: translateY(-5px);
 }
 
-.category__item-img {
+.category__item-img-box {
   display: inline-block;
-  margin: 24px 0 24px 24px;
+  padding: 24px 0;
+  margin-left: 24px;
+  margin-right: auto;
+}
+
+.category__item-img {
+  width: 57px;
+  height: 64px;
 }
 
 .category__item-title {
@@ -540,7 +547,11 @@ img {
   line-height: 24px;
   color: #7984a5;
   padding: 0 16px;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+.category__wrapper {
+  display: none;
 }
 
 /* ==================== Connection ==================== */
