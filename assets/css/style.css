@@ -667,7 +667,7 @@ img {
   max-width: 302px;
   transition: transform linear 0.1s;
   will-change: transform;
-  align-self: stretch;
+  min-height: 400px;
 }
 
 .job__list-item:hover {
@@ -689,6 +689,7 @@ img {
   /* or 144% */
   text-align: center;
   max-width: 254px;
+  min-height: 120px;
   padding: 24px;
 }
 

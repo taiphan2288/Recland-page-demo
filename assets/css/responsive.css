@@ -447,8 +447,9 @@
   }
 
   .job__wrapper .owl-carousel {
-    margin: auto;
+    margin: 0 auto;
     max-width: 310px;
+    text-align: center;
   }
 
   .job__list {
