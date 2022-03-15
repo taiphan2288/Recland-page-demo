@@ -458,5 +458,6 @@
 
   .job__list-item {
     box-shadow: none;
+    border-radius: 8px;
   }
 }
