@@ -369,10 +369,10 @@
   }
 
   .slider-next {
-    right: -85px;
+    right: -25px;
   }
   .slider-prev {
-    left: -85px;
+    left: -25px;
   }
   .slider-dots {
     position: absolute;
