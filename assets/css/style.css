@@ -247,7 +247,8 @@ img {
 
 .home__container-content {
   position: relative;
-  min-height: 529px;
+  min-height: 588px;
+  height: 100%;
 }
 
 .home__img {
