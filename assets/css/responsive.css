@@ -439,6 +439,7 @@
 
   .category__item {
     box-shadow: none;
+    border: 2px solid #eae9ee;
   }
 
   /* Job */
@@ -459,5 +460,6 @@
   .job__list-item {
     box-shadow: none;
     border-radius: 10px;
+    border: 2px solid #eae9ee;
   }
 }
