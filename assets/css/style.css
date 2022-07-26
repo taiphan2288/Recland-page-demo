@@ -136,8 +136,8 @@ img {
   top: 0;
   right: 0;
   z-index: var(--z-fixed);
-  background: #fff;
-  box-shadow: 1px 1px 1px 1px #fff7f8;
+  background: #fff7f8;
+  box-shadow: 1px 1px 1px 1px #f8f2f3;
   opacity: 1;
   margin: 0 auto;
 }
@@ -282,7 +282,7 @@ img {
 
 .overlay li:not(:last-child) a:hover,
 .overlay li:not(:last-child) a:focus {
-  color: #0088a9;
+  color: #ff4a59;
 }
 
 .overlay .close {
