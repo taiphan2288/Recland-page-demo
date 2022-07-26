@@ -136,14 +136,9 @@ img {
   top: 0;
   right: 0;
   z-index: var(--z-fixed);
-  background: linear-gradient(
-    180deg,
-    #fff7f8 0%,
-    rgba(255, 247, 248, 0.5) 100%
-  );
+  background: #fff;
   box-shadow: 1px 1px 1px 1px #fff7f8;
   opacity: 1;
-  /* min-width: 1440px; */
   margin: 0 auto;
 }
 
@@ -229,6 +224,106 @@ img {
   background: #fff;
   border-radius: 8px;
   margin: 5px;
+}
+
+.mobile__menu--logo {
+  position: relative;
+  padding: 30px 25px;
+}
+
+.overlay__content li a {
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+
+.overlay {
+  height: 100%;
+  /* width: 0; */
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: all 0.75s linear;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.overlay--active {
+  opacity: 1;
+  transform: translateX(0);
+  width: 80%;
+}
+
+.overlay.overlay--active .close {
+  transform: rotate(360deg);
+}
+
+.overlay .close {
+  transition: all 0.8s ease;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.overlay li {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay li:not(:last-child) a:hover,
+.overlay li:not(:last-child) a:focus {
+  color: #0088a9;
+}
+
+.overlay .close {
+  position: absolute;
+  top: -8px;
+  left: 18px;
+  color: #000;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.mobile__menu--logo img {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.overlay__content .overlay__content-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px 0;
+}
+
+.overlay__content .overlay__content-auth a:nth-child(1) {
+  padding: 15px;
+  background: linear-gradient(#fff, #fff) padding-box,
+    var(--gradient) border-box;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.overlay__content .overlay__content-auth a:nth-child(2) {
+  padding: 15px;
+  background: var(--gradient) border-box;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  color: #fff;
 }
 
 /*==================== HOME ====================*/
@@ -435,6 +530,11 @@ img {
 .description__content-item img {
   max-width: 118px;
   height: auto;
+  transition: all 0.5s linear;
+}
+
+.description__content-item:hover img {
+  transform: rotateY(360deg);
 }
 
 .description__content-item-box {

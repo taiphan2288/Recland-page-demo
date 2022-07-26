@@ -8,11 +8,19 @@
   .about__container {
     margin: 0 auto;
   }
+
+  #mobile__menu {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .container {
     margin-left: 44px;
     margin-right: 44px;
+  }
+
+  #mobile__menu {
+    display: none;
   }
 
   .nav__item {
@@ -33,6 +41,35 @@
 @media only screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  #mobile__menu {
+    display: block;
+  }
+
+  .nav__menu-bar {
+    display: initial;
+  }
+
+  .overlay li a {
+    font-size: 20px;
+  }
+
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+  }
+
+  .overlay.overlay--active .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
   }
 
   .home__content-search {
@@ -83,12 +120,6 @@
     align-items: center;
   }
 
-  /* .nav__registration {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  } */
-
   .subscribe__info {
     display: flex;
     flex-direction: column;
@@ -119,72 +150,6 @@
     justify-content: center;
     gap: 32px;
   }
-
-  .nav__menu {
-    position: absolute;
-    right: 0;
-    height: 100vh;
-    top: 100px;
-    background-color: #fff;
-    display: none;
-    width: 50%;
-  }
-
-  .nav__menu-bar {
-    display: block;
-    cursor: pointer;
-  }
-
-  .nav--active {
-    display: block;
-  }
-
-  .nav__menu.nav--active {
-    animation: fade-in 1s;
-  }
-
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes fade-out {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0;
-    }
-  }
-
-  .nav__list {
-    gap: 5rem;
-    margin-top: 10%;
-  }
-
-  .nav__link {
-    font-size: 20px;
-  }
-
-  .nav__registration-login,
-  .nav__registration-registor {
-    font-size: 20px;
-  }
-
-  .nav__registration-login {
-    display: flex;
-    justify-content: center;
-  }
-
-  .slider {
-    display: none;
-  }
 }
 /* Mobile */
 @media (max-width: 740px) {
@@ -194,32 +159,19 @@
   }
 
   .nav__menu {
-    position: absolute;
-    right: 0;
-    height: 100vh;
-    top: 100px;
-    background-color: #fff;
     display: none;
-    width: 100%;
   }
 
-  .nav--active {
+  #mobile__menu {
     display: block;
   }
 
-  .nav__menu.nav--active {
-    animation: fade-in 1s;
+  .nav__menu-bar {
+    display: initial;
   }
 
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  .overlay .close {
+    font-size: 30px;
   }
 
   .home__img img {

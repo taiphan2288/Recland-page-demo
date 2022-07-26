@@ -1,11 +1,16 @@
 const navSlide = () => {
-  const burger = document.querySelector(".nav__menu-bar");
-  const navMenu = document.querySelector(".nav__menu");
-  burger.addEventListener("click", () => {
-    //   toggle nav
-    navMenu.classList.toggle("nav--active");
+  const doc = document;
+  const menuOpen = doc.querySelector(".nav__menu-bar");
+  const menuClose = doc.querySelector(".close");
+  const overlay = doc.querySelector(".overlay");
+
+  menuOpen.addEventListener("click", () => {
+    overlay.classList.add("overlay--active");
   });
-  //
+
+  menuClose.addEventListener("click", () => {
+    overlay.classList.remove("overlay--active");
+  });
 };
 
 navSlide();
